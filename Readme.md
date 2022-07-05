@@ -1,0 +1,1 @@
+Este projeto tem a finalidade apenas de por em prática alguns conhecimentos de html, css e js.
