@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="/index.html">
+
+    <script src="https://kit.fontawesome.com/3e41341926.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="back">
+       <a href="/index.html"> <i class="fa-solid fa-circle-arrow-left"></i></i></a>
+    </header>
+    <main class="form-content">
+        <h2 class="form-title">Form test</h2>
+
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço"> 
+            </div>
+                
+            <div class="input-field">
+                <div class="local__tipo">
+                    <p class="local-pergunta">Qual o tipo de residência em que você mora?</p>
+
+                    <label for="apartamento"><input type="radio" name="moradia" id="apartamento"> Apartamento</label>   
+                    <label for="casa"><input type="radio" name="moradia" id="casa"> Casa comum</label>
+                    <label for="outro"><input type="radio" name="moradia" id="outro"> Outro</label>  
+                </div>
+
+                <div class="info-casa">
+                    <p class="info-casa__pergunta">Sua casa possui telas nas janelas, sacadas e/ou quintal?</p>
+                    <label for="telado"><input type="radio" name="tela" id="telado">Sim</label>
+                    <label for="nao-telado"><input type="radio" name="tela" id="nao-telado">Não</label>  
+                </div>
+            </div>
+
+            <div class="input-field">
+                <div class="info-animais">
+                    <p class="info-animais__pergunta">Você já possui outros animais na residência? Se sim, informe quais:</p>
+                    <input type="textarea" name="tem-animais" id="tem-animais" placeholder="Exemplo: sim, dois gatos e um cachorro">
+                </div>
+
+                <div class="interesse-adocao">
+                    <p class="interesse-adocao__pergunta">Qual dos nossos gatinhos você mais gostou e quer adotar?</p>
+                    <textarea class="interesse-adocao__texto" cols="50" rows="5" name="interesse" id="interesse" placeholder="Exemplo: eu gostaria de adotar os dois irmãos, João e Maria"></textarea>  
+                </div>     
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Enviar" id="submit">
+            </div>     
+        </form>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    border-bottom: 1px solid #e986b7;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2em;
+    text-decoration: none;
+    color: #bc0d53;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: .25em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho__link a {
+    text-decoration: none;
+    color: #f13888;
+    font-size: 1.025em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .20s;
+}
+
+.cabecalho__link a:hover {
+    font-weight: 700;
+    transition: .20s;
+
+}
+
+.banner {
+    background-image: url(/img/gatinhobanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    padding: 100px;
+}
+
+.banner__titulo {
+    text-align: start;
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.banner__texto {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 100px;
+}
+
+.banner__btn {
+    padding: 1.25em;
+    background-color: #fe007f;
+    border: none;
+    border-radius: 1.5em;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.025em;
+    text-transform: uppercase;
+    width: 20rem;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.banner__btn:hover {
+    background-color: #760043;
+}
+
+
+.about {
+    margin: 10em;
+    padding: 10px;
+}
+
+.about__who {
+    text-align: center;
+    font-size: 5em;
+    color: #000;
+    font-weight: 400;
+}
+
+.about__description {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1.025em;    
+    color: #565656;
+    line-height: 1.5em;
+}
+
+.adoption__title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1.25em;
+    grid-column-gap: 3em;
+    grid-row-gap: 6em;
+    margin:3em;
+    border-radius: 1.025em;
+    
+}
+
+.cards__description {
+    box-shadow: 5px 20px 4px #7e7e7e;
+    max-height: 300px;
+}
+
+.cards__image {
+    width: 100%;
+    height: 50%;
+    
+}
+
+.cards__text {
+    padding: 1.025em;
+    letter-spacing: .1em;
+    height: 30%;
+}
+
+.cards__button {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 1.02em;
+    border: none;
+    background-color: #e00f6d;
+    height: 1.2em;
+    color: #f1f1f1;
+    height: 50px;
+    align-self: center;
+    position: relative;
+}
+
+.how {
+    margin-top: 10em;
+    text-align: center;
+    padding: 5em;
+    margin-bottom: 10em;
+}
+
+.how__title {
+    font-size: 5em;
+    color: #000;
+    font-weight: 400; 
+}
+
+
+.how__description {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1.025em;    
+    color: #565656;
+    line-height: 1.5em;
+}
+
+.how__form {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1.025em;    
+    color: #565656;
+    line-height: 1.5em; 
+}
+
+.how__link {
+    text-decoration: none;
+    color: #c50471;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.025em;
+    background-color: #760043;
+    height: 10em;
+    padding: 2em;
+}
+  
+footer i {
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.contacts__text {
+    color: #f1f1f1;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+   

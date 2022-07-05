@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(/img/banner-form.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+i {
+    font-size:2em;
+    padding: 1em;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.form-content {
+    background: #ececec;
+    height: 80vh;
+    width: 30vw;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.form-title {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.025em;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 1.025em;
+    margin: 2em;
+}
+
+.input-field input {
+    background: #ececec;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.025em;
+    padding: 8px;  
+    cursor: pointer;
+    color: #0a0a0a;
+}
+
+.input-field input:hover {
+    border-bottom: .075em solid #5e5e5e;
+    padding-bottom: 6.8px;
+}
+
+.input-field input::placeholder {
+    color: #4b4b4b;
+    font-weight: 300;
+    font-size: 0.75em;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: wrap;
+}
+/*Sobre*/
+
+.local__tipo, .info-casa, .info-animais, .interesse-adocao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .75em;
+}
+
+.local-pergunta, .info-casa__pergunta, .info-animais__pergunta, .interesse-adocao__pergunta, .interesse-adocao__texto {
+    padding: 8px;
+}
+
+.interesse-adocao__texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+
+/*Botão enviar*/
+
+.submit {
+    margin: auto 0;
+    text-align: center;  
+    height: 5em;
+}
+
+.submit input {
+    padding: 10px 60px 10px 60px;
+    border: none;
+    background-color: #012574;
+    border-radius: .5em;
+    color: #ececec;
+    font-size: 1.025em;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.submit input:hover {
+    transition: ease-in;
+    background-color: #0d036d;
+    transition: .25s;
+}
